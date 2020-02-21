@@ -1,7 +1,7 @@
-laurene_phone_number = "0760147648"
+laurene_phone_number = "0708090807"
 print ("Téléphone de Laurène: ")
 print (laurene_phone_number)
-laurene_phone_number = "0673626082"
+laurene_phone_number = "0605040302"
 print ("Téléphone de Laurène: " + laurene_phone_number)
 del(laurene_phone_number)
 print("Le numéro de téléphone de Laurène a été effacé")
