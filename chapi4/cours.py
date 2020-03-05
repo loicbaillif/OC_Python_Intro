@@ -7,11 +7,12 @@ quotes = [
 ]
 
 characters = [
-    "Alvin et les Chipmunks",
-    "Babar","Betty Boop",
-    "Calimero",
-    "Casper",
-    "Le chat potté",
+    "alvin et les Chipmunks",
+    "Babar",
+    "betty Boop",
+    "calimero",
+    "casper",
+    "le chat potté",
     "Kirikou"
 ]
 
