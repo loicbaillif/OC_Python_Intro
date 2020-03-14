@@ -18,7 +18,7 @@ def get_random_item_in(my_list):
   item = my_list[0] # get a quote from the list, so far just the first one
   return item
 
-while user_answer != 3:
+while user_answer != 4:
   # - Show another quote 
   print("Une autre! Une autre!")
   print(get_random_item_in(quotes))
