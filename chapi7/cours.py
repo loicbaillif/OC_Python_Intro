@@ -8,7 +8,7 @@ quotes = [
 
 characters = ["alvin et les Chimpunk", "Babar", "betty boop", "calimero", "casper", "le chat potté", "kirikou"]
 
-user_answer = "B"
+user_answer = 1
 
 # Algorithm to display random quote:
 
@@ -18,8 +18,12 @@ def get_random_item_in(my_list):
   item = my_list[0] # get a quote from the list, so far just the first one
   return item
 
-while user_answer != "A":
+while user_answer != 4:
   # - Show another quote 
   print("Une autre! Une autre!")
   print(get_random_item_in(quotes))
-  user_answer = "A"
+  user_answer = user_answer + 1
+
+for character in characters:
+  nouveau_character = character.capitalize()
+  print(nouveau_character)
